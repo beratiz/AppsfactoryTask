@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="59.643">
+    <testcase classname="Setting up a WebApp project that executes the following features of Amazon website" name="Set Up a Web Testing Project for Chrome that executes the following Test Case" time="59.395">
+        <failure message="expected:&lt;Amazon [Registirierung]&gt; but was:&lt;Amazon [Anmelden]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given As a new Amazon user, I am on the Amazon home page....................passed
+Given I search products and add the cheapest one to Einkaufswagen...........passed
+And I navigate to Einkaufswagen.............................................passed
+Then verify that basket calculates the result correctly.....................passed
+And I navigate to checkout..................................................passed
+Then verify that user gets redirected to registration page..................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Amazon [Registirierung]> but was:<Amazon [Anmelden]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at de.amazon.stepdefinitions.AmazonTestStepDef.verify_user_gets_redirected_to_registration_page(AmazonTestStepDef.java:62)
+	at ✽.verify that user gets redirected to registration page(file:///home/brt/IdeaProjects/AppsfactoryChallenge_1/src/test/resources/features/AmazonTest.feature:32)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

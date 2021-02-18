@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: de.amazon.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 61.413 sec <<< FAILURE!
+Set Up a Web Testing Project for Chrome that executes the following Test Case(Setting up a WebApp project that executes the following features of Amazon website)  Time elapsed: 59.577 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Amazon [Registirierung]> but was:<Amazon [Anmelden]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at de.amazon.stepdefinitions.AmazonTestStepDef.verify_user_gets_redirected_to_registration_page(AmazonTestStepDef.java:62)
+	at ✽.verify that user gets redirected to registration page(file:///home/brt/IdeaProjects/AppsfactoryChallenge_1/src/test/resources/features/AmazonTest.feature:32)
+
