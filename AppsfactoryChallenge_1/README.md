@@ -77,7 +77,7 @@ or
 ### Second way:
 Run Test by using TestRunner class where is `/src/test/java/de/amazon/runners/TestRunner.java`
 ## Getting Report
-You will find the report `/target/default-cucumber-reports/index.html` and can open `index.html` file with any browser and see the report of test execution. You will also see a screenshot for any failed steps.
+You will find the report `/target/default-cucumber-reports/cucumber.html` and can open `cucumber.html` file with any browser and see the report of test execution. You will also see a screenshot for any failed steps.
 
 Secondly, you will also get as a result of test execution a Cucumber Report link which you can see the test report on Cucumber Report Service.
 
